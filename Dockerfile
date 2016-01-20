@@ -5,7 +5,7 @@ MAINTAINER RnbWd <dwisner6@gmail.com>
 
 # Sinopia Version / Path / Backup
 
-RUN git clone --depth 1 https://github.com/RnbWd/sinopia.git
+RUN git clone --depth 1 https://github.com/rlidwka/sinopia.git
 WORKDIR /sinopia
 RUN npm install --production
 

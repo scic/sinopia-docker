@@ -2,8 +2,6 @@
 
 [Sinopia](https://github.com/rlidwka/sinopia) is a private npm repository server.
 
-This repo uses [rnbwd/sinopia](https://github.com/RnbWd/sinopia) for better compatability with docker and [nginx-proxy](https://github.com/jwilder/nginx-proxy).
-
 Had to downgrade to node v10 for stability. The storage path is also changed in the [config.yaml](https://github.com/RnbWd/sinopia-docker/blob/master/config.yaml) to handle the edge case where htpasswd is installed via npm.
 
 ### Recommend Usage
